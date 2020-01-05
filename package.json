@@ -1,0 +1,31 @@
+{
+  "name": "apollo-example",
+  "version": "1.0.0",
+  "description": "Using apollo link in resolver",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsnd index.ts",
+    "debug": "tsnd --inspect-brk -- index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ttsahi/apollo-example.git"
+  },
+  "author": "ttsahi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ttsahi/apollo-example/issues"
+  },
+  "homepage": "https://github.com/ttsahi/apollo-example#readme",
+  "dependencies": {
+    "apollo-link": "^1.2.13",
+    "apollo-link-http": "^1.5.16",
+    "apollo-server": "^2.9.15",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "@types/node-fetch": "^2.5.4",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.7.4"
+  }
+}
